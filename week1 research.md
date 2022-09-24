@@ -11,6 +11,5 @@
 **빛의 3원색?**  
 
 *  **R. G. B** -> (**A.K.A**) **가산혼합**
-![11327371](https://user-images.githubusercontent.com/112801807/192091202-fb38c4be-5b18-4111-9f24-ef24cf98cb83.jpg){: width="20" height="20"}
-이미지야 왜 안바뀌니
+![11327371](https://user-images.githubusercontent.com/112801807/192091202-fb38c4be-5b18-4111-9f24-ef24cf98cb83.jpg) {: width="300" height="300"}
 
