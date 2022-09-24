@@ -12,4 +12,4 @@
 
 *  **R. G. B** -> (**A.K.A**) **가산혼합**
 
-!{RGB](https://cdn2.vectorstock.com/i/1000x1000/73/71/rgb-colors-vector-11327371.jpg)   
+
