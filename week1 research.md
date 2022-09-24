@@ -1,5 +1,5 @@
-# 1주차 강의 정리
-**색이란 무엇인가?**  
+
+# **What is the color?**  
 * 색이란 반사되거나 방출되는 빛의 다른 품질로 인해 발생하는 사물의 측면이다.  
   * **색**을 보려면 **빛**이 필요하다.  
   * **빛**이 물체에 비치면 일부 색상은 물체에서 반사되고 다른 색상은 흡수된다. 우리는 반사된 그 색상을 보고 **색**이라 인지를 한다.  
@@ -8,7 +8,7 @@
   <https://byjus.com/physics/visible-light/>
 ![빛의 스펙트럼](https://cdn1.byjus.com/wp-content/uploads/2018/11/visible-light-1.jpg)   
 ***
-**빛의 3원색?**  
+## **The three color of light?**  
 
 *  **R. G. B** -> (**A.K.A**) **가산혼합**
 * 인간의 눈에 있는 시각세포는 가시광선인 r g b 로 치환하여 색을 보게 된다.  인간의 시각 세포에는 **명암과 물체의 형태를 인식하는 간상세포**와 **빨간색, 초록색, 파란색의 세 가지 세포로 인지하는 원추세포**가 있다. r g b는**빛**의 혼합이며 합치면 합칠수록 색이 밝아진다.  
@@ -24,4 +24,14 @@
 
 <https://m.wowpress.co.kr/wow2.0/w_guide/assets/img/g2_2_02.jpg>
 
+***
 
+## **what is the alpha?**
+~~내가 아는 alpha는 league of legend의 skill밖에 없었다.~~ 
+
+![masteryi](https://cdn.lolalytics.com/generated/champion280px/masteryi.jpg)
+
+**그렇다면 알파의 정의는 무엇일까?**
+  *  불투명성 즉 opacity가 알파의 개념이다.  
+  *  컴퓨터가 3가지의 색 채널 r g b를 지니고 있다면 **alpha** 역시 채널로써의 역할을 하며 bit의 심도(8,16,32 ...) 에 따라 표현 범위가 넓어진다.
+  *  
