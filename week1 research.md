@@ -5,4 +5,11 @@
   * **빛**이 물체에 비치면 일부 색상은 물체에서 반사되고 다른 색상은 흡수된다. 우리는 반사된 그 색상을 보고 **색**이라 인지를 한다.  
   * **빛**은 다양한 파장의 전자기파의 모임이다.  인간의 눈은 그 전자기파들의 집합들 속에서 대략 **390**~**700 nm** 을 볼 수 있고 이를 **가시광선**이라고 한다.  
 
-<https://byjus.com/physics/visible-light/>
+  <https://byjus.com/physics/visible-light/>
+![빛의 스펙트럼](https://cdn1.byjus.com/wp-content/uploads/2018/11/visible-light-1.jpg)   
+***
+**빛의 3원색?**  
+
+*  **R. G. B** -> (**A.K.A**) **가산혼합**
+
+!{RGB](https://cdn2.vectorstock.com/i/1000x1000/73/71/rgb-colors-vector-11327371.jpg)   
