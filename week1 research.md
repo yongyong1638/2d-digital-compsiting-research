@@ -17,7 +17,7 @@
 
 *  **C. M. Y. K** -> (**A.K.A**) **감산혼합**
 
-![cmyk](https://m.wowpress.co.kr/wow2.0/w_guide/assets/img/g2_2_02.jpg)  
 
+<img src="https://m.wowpress.co.kr/wow2.0/w_guide/assets/img/g2_2_02.jpg" width="300" height="300"/>
 
 
