@@ -11,13 +11,17 @@
 **빛의 3원색?**  
 
 *  **R. G. B** -> (**A.K.A**) **가산혼합**
+* 인간의 눈에 있는 시각세포는 가시광선인 r g b 로 치환하여 색을 보게 된다.  인간의 시각 세포에는 **명암과 물체의 형태를 인식하는 간상세포**와 **빨간색, 초록색, 파란색의 세 가지 세포로 인지하는 원추세포**가 있다. r g b는**빛**의 혼합이며 합치면 합칠수록 색이 밝아진다.  
 
+![rgb](https://blog.kakaocdn.net/dn/bTmR0u/btq9nhL30IO/lxffbH4GfFm2IhOzsf5kd0/img.jpg)  
 
-![rgb](https://blog.kakaocdn.net/dn/bTmR0u/btq9nhL30IO/lxffbH4GfFm2IhOzsf5kd0/img.jpg)
+<https://blog.kakaocdn.net/dn/bTmR0u/btq9nhL30IO/lxffbH4GfFm2IhOzsf5kd0/img.jpg>
 
 *  **C. M. Y. K** -> (**A.K.A**) **감산혼합**
+ * 디지털 작업을 하여 인쇄물을 뽑을때 사용하는 혼합법이며 **잉크**로 이루어져 합치면 합칠수록 색이 어두워진다. 
 
+<img src="https://m.wowpress.co.kr/wow2.0/w_guide/assets/img/g2_2_02.jpg" width="300" height="300"/>  
 
-<img src="https://m.wowpress.co.kr/wow2.0/w_guide/assets/img/g2_2_02.jpg" width="300" height="300"/>
+<https://m.wowpress.co.kr/wow2.0/w_guide/assets/img/g2_2_02.jpg>
 
 
