@@ -15,4 +15,9 @@
 
 ![rgb](https://blog.kakaocdn.net/dn/bTmR0u/btq9nhL30IO/lxffbH4GfFm2IhOzsf5kd0/img.jpg)
 
+*  **C. M. Y. K** -> (**A.K.A**) **감산혼합**
+
+![cmyk](https://m.wowpress.co.kr/wow2.0/w_guide/assets/img/g2_2_02.jpg)  
+
+
 
