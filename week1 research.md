@@ -59,10 +59,16 @@
  
 우리가 볼 수 있는 스펙트럼의 범위인 380~ 700nm의 영역을 따라 점을 찍어 평면 좌표로 나타내면 위의 그림처럼 표현 할 수 있다.  
 
-**저 스펙트럼을 나타낸것이 gamut 즉 가시가능한 색 영역이다.**  
+**인간이 인지할 수 있는 모든 컬러 중에서 표현할 수 있는 컬러의 범위가 색역 즉 gamut이다.**  
 
 <img src= "https://www.scratchapixel.com/images/upload/color/rgbcube.png" />  
 
 3d 큐브의 차원에서 보면 각 R. G . B의 꼭지점을 연결 시키면 보조 색인 C M Y 가 생성이 되는데 세가지의 색상을 다 합치면 (0, 0, 0) 은 BLACK (1,1,1) 은 WHITE로 표현가능.
 
 <https://www.scratchapixel.com/lessons/digital-imaging/colors/color-space>  
+
+그렇다면 우리는 왜 이 **color space**를 신경써야할까?  
+
+<img src= "https://blog.frame.io/wp-content/uploads/2020/02/Sample-Color-Managed-Grading-Workflow-800x709.jpg" /> 
+
+
