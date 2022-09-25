@@ -59,6 +59,8 @@
  
 우리가 볼 수 있는 스펙트럼의 범위인 380~ 700nm의 영역을 따라 점을 찍어 평면 좌표로 나타내면 위의 그림처럼 표현 할 수 있다.  
 
+<img src= "https://www.lamptolaser.com/images/spectrum.jpg" />
+
 **인간이 인지할 수 있는 모든 컬러 중에서 표현할 수 있는 컬러의 범위가 색역 즉 gamut이다.**  
 
 <img src= "https://www.scratchapixel.com/images/upload/color/rgbcube.png" />  
@@ -67,8 +69,13 @@
 
 <https://www.scratchapixel.com/lessons/digital-imaging/colors/color-space>  
 
-그렇다면 우리는 왜 이 **color space**를 신경써야할까?  
+**그렇다면 우리는 왜 이 color space 를 신경써야할까?**  
 
 <img src= "https://blog.frame.io/wp-content/uploads/2020/02/Sample-Color-Managed-Grading-Workflow-800x709.jpg" /> 
+
+**과거에는 필름으로 영상을 촬영하였다면 요즘은 매체의 발달과 촬영 기기들의 발달로 각 기종들이 가지고 있는 색 표현의 특징들과 다양한 촬영 장비들이 발달하였고  
+**근래에는 스크린뿐만 아니라 디스플레이들의 다양화 (ex, 스크린, 스마트폰 , 외부 디스플레이 etc..)로 인해 각 영상들의 고유 색을 표현하려면 gamut의 표준화가 필요함.
+
+
 
 
