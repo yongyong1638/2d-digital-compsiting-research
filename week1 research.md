@@ -55,5 +55,14 @@
  ***
  ## **what is the color space?**
  * **우리가 이 범위를 이해하기 위해서는 차원을 알아야한다.**  
- ![dimi](https://www.researchgate.net/profile/Hector-Tinoco-2/publication/348048975/figure/fig2/AS:974780010336260@1609417073706/a-Measurement-with-a-digital-camera-b-RGB-3D-diagram-modified-from-21-c-sRGB.png)
+ <img src= "https://www.scratchapixel.com/images/upload/color/xyzgraph.png" />  
  
+우리가 볼 수 있는 스펙트럼의 범위인 380~ 700nm의 영역을 따라 점을 찍어 평면 좌표로 나타내면 위의 그림처럼 표현 할 수 있다.  
+
+**저 스펙트럼을 나타낸것이 gamut 즉 가시가능한 색 영역이다.**  
+
+<img src= "https://www.scratchapixel.com/images/upload/color/rgbcube.png" />  
+
+3d 큐브의 차원에서 보면 각 R. G . B의 꼭지점을 연결 시키면 보조 색인 C M Y 가 생성이 되는데 세가지의 색상을 다 합치면 (0, 0, 0) 은 BLACK (1,1,1) 은 WHITE로 표현가능.
+
+<https://www.scratchapixel.com/lessons/digital-imaging/colors/color-space>  
