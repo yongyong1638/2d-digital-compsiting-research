@@ -28,7 +28,7 @@
 ***
 
 ## **what is the alpha?**
-~~내가 아는 alpha는 league of legend의 skill밖에 없었다.~~ 
+~~내가 아는 alpha는 league of legend의 skill밖에 없다.~~ 
 
 ![masteryi](https://cdn.lolalytics.com/generated/champion280px/masteryi.jpg)
 
@@ -55,5 +55,5 @@
  ***
  ## **what is the color space?**
  * **우리가 이 범위를 이해하기 위해서는 차원을 알아야한다.**  
-<img src="https://www.researchgate.net/profile/Hector-Tinoco-2/publication/348048975/figure/fig2/AS:974780010336260@1609417073706/a-Measurement-with-a-digital-camera-b-RGB-3D-diagram-modified-from-21-c-sRGB.png"/>
+ ![dimi](https://www.researchgate.net/profile/Hector-Tinoco-2/publication/348048975/figure/fig2/AS:974780010336260@1609417073706/a-Measurement-with-a-digital-camera-b-RGB-3D-diagram-modified-from-21-c-sRGB.png)
  
