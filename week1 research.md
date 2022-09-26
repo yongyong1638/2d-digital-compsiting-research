@@ -61,7 +61,7 @@
 
 <img src= "https://www.lamptolaser.com/images/spectrum.jpg" />
 
-**인간이 인지할 수 있는 모든 컬러 중에서 표현할 수 있는 컬러의 범위가 색역 즉 gamut이다.**  
+**색도라고 불러왔던 색상의 강도를 gamut라고 하며 색상이 재현하는 범위 한계를 설정한다.**  
 
 <img src= "https://www.scratchapixel.com/images/upload/color/rgbcube.png" />  
 
