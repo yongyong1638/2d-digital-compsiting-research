@@ -38,8 +38,14 @@
 
 <img src="https://image.benq.com/is/image/benqco/gamma-3?$ResponsivePreset$">   
 
-우리는 아래에서 나올 베버의 법칙에 의하면 0.0에서 0.1로 변하는 visual encoding과 linear encoding이 있는데 visual encoding에서의 변화가 더 드라마틱하게 느껴진다.
-그래서 한 과학자
+우리는 아래에서 나올 베버의 법칙에 의하면 0.0에서 0.1로 변하는 visual encoding과 linear encoding이 있는데 visual encoding에서의 변화가 더 드라마틱하게 느껴진다.  
+
+>This phenomenon was also found in Ebner and Fairchild’s study in 1998, where they found using an exponent of 0.43 to convert linear intensity into lightness for neutrals can provide an optimal perceptual encoding of grays. The exponent of 0.43 is approximately 2.33, quite close to gamma 2.2. Hence, gamma value of 2.2 has become the golden standard of digital display for a proper calibration.  
+
+-> 즉 0.43의 지수를 사용하여 linear intensity를 중성선의 밝기로 변환하면 최적의 회색 지각 범위를 제공할 수 있다. 0.43의 지수는 약 2.33으로 gamma 2.2와 가깝다. 따라서 gamma2.2 적절한 보정을 위한 디지털 디스플레이의 표준이 되었다.
+
+
+
 
 >>  **그렇다면 linear workflow는 무엇인가?**  
 
@@ -51,7 +57,7 @@
 위의 그림을 보자면 먼저 인간의 눈은 [베버의 법칙](http://www.ktword.co.kr/test/view/view.php?m_temp1=4166) 때문에 어두운 색에 훨씬 민감하다. 이로 인해 어두운 환경에서 조금의 빛만 있더라도 감지 할 수 있으나 밝은 환경에서 조금의 빛은 감지할 수 없다. 우리는 gamma color space의 gradation이 더 자연스럽다고 느껴지지만 실제로 수학적으로 정의한 정확한 값은 linear color space이다. 
 1. **즉, 선형 색 공간의 그라데이션을 감마 색 공간의 그라데이션처럼 우리가 자연스럽게 인지하려면 감마값을 조정을 해야한다.**  
   
-1) 원래 색 그 자체는 linear로 표현 되어야 맞지만 예전 crt monitor에서는 gamma값을 낮추어 표현했었다. (srgb)  
+1) 원래 색 그 자체는 linear로 표현 되어야 맞지만 예전 crt monitor에서는 gamma값을 낮추어 표현했었다. (SRGB)  
 
 2) 그렇기에 디스플레이에서 보여줄 때 linear처럼 보여주기 위해 컴퓨터가 일부러 밝게 이미지를 저장하였고 모니터가 gamma값을 낮추어 표현하게 된다면 우리가 보게되는 색상이 linear로 보였다.  
 
