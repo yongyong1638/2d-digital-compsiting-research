@@ -26,24 +26,34 @@
 
 ㄴ> **먼저 이들을 왜 사용하는지 아려면 선형 편집 linear workflow부터 이해해야한다.**
 
-**GAMMA**란 무엇인가?
+**GAMMA**란 무엇인가?  
+
+<img src="https://image.benq.com/is/image/benqco/gamma-1?$ResponsivePreset$" width="600" height="400">  
 
 >감마는 디지털 디스플레이에서 검정색이 흰색으로 얼마나 부드럽게 전환되는지로 설명할 수 있습니다. 종종 2.2 또는 2.4와 같은 숫자와 연결됩니다. 이 숫자는 검은색에서 흰색으로 또는 흰색에서 검은색으로 곡선의 범위를 나타냅니다.  
 
->> **감마란 컴퓨터 모니터에서 보여지는 색의 스펙트럼의 밝기 곡선이다.**  
+ **감마란 컴퓨터 모니터에서 보여지는 색의 스펙트럼의 밝기 곡선이다.**  
+
+**왜 gamma 2.2가 표준인가?**   
+
+<img src="https://image.benq.com/is/image/benqco/gamma-3?$ResponsivePreset$">   
+
+우리는 아래에서 나올 베버의 법칙에 의하면 0.0에서 0.1로 변하는 visual encoding과 linear encoding이 있는데 visual encoding에서의 변화가 더 드라마틱하게 느껴진다.
+그래서 한 과학자
+
 >>  **그렇다면 linear workflow는 무엇인가?**  
-<img src="https://image.benq.com/is/image/benqco/gamma-1?$ResponsivePreset$" width="600" height="400">  
+
 
 (https://www.benq.com/en-us/knowledge-center/knowledge/gamma-monitor.html)
 
 <img src="https://user-images.githubusercontent.com/60923302/118788622-ecc46600-b8ce-11eb-843c-c985eb6be98e.png" width="600" height="500">  
 
-위의 그림을 보자면 먼저 인간의 눈은 [베버의 법칙](http://www.ktword.co.kr/test/view/view.php?m_temp1=4166) 때문에 어두운 색에 훨씬 민감하다. 이로 인해 어두운 환경에서 조금의 빛만 있더라도 감지 할 수 있으나 밝은 환경에서 조금의 빛은 감지할 수 없다. 우리는 gamma color space의 그라데이션이 더 자연스럽다고 느껴지지만 실제로 수학정으로 정의한 정확한 값은 linear space이다. 
+위의 그림을 보자면 먼저 인간의 눈은 [베버의 법칙](http://www.ktword.co.kr/test/view/view.php?m_temp1=4166) 때문에 어두운 색에 훨씬 민감하다. 이로 인해 어두운 환경에서 조금의 빛만 있더라도 감지 할 수 있으나 밝은 환경에서 조금의 빛은 감지할 수 없다. 우리는 gamma color space의 gradation이 더 자연스럽다고 느껴지지만 실제로 수학적으로 정의한 정확한 값은 linear color space이다. 
 1. **즉, 선형 색 공간의 그라데이션을 감마 색 공간의 그라데이션처럼 우리가 자연스럽게 인지하려면 감마값을 조정을 해야한다.**  
   
-1) 원래 색 그 자체는 linear로 표현되어야 맞지만 우리가 보는 crt 모니터가 각종 display에서는 gamma값을 낮추어 표현한다.  
+1) 원래 색 그 자체는 linear로 표현 되어야 맞지만 예전 crt monitor에서는 gamma값을 낮추어 표현했었다.  
 
-2) 디스플레이에서 보여줄때 linmear처럼 보여주기 위해 일부러 밝게 이미지를 저장하는 것이고 gamma값을 낮추어 표현하게 된다면 우리가 보게되는 색상이 linear로 보인다.  
+2) 그렇기에 디스플레이에서 보여줄 때 linmear처럼 보여주기 위해 컴퓨터가 일부러 밝게 이미지를 저장하였고 모니터가 gamma값을 낮추어 표현하게 된다면 우리가 보게되는 색상이 linear로 보였다.  
 
 3) 컴퓨터가 이미지를 저장할때 (jpg. png, gif, jpeg ..etc)포맷들은 감마보정으로 밝게 저장되지만 (raw, exr)같은 파일들은 감마보정이 없다.  
 
