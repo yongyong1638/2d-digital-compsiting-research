@@ -30,10 +30,17 @@
 
 >감마는 디지털 디스플레이에서 검정색이 흰색으로 얼마나 부드럽게 전환되는지로 설명할 수 있습니다. 종종 2.2 또는 2.4와 같은 숫자와 연결됩니다. 이 숫자는 검은색에서 흰색으로 또는 흰색에서 검은색으로 곡선의 범위를 나타냅니다.  
 
->> 컴퓨터 모니터에서 보여지는 색의 스펙트럼의 밝기 곡선이다.   
+>> **감마란 컴퓨터 모니터에서 보여지는 색의 스펙트럼의 밝기 곡선이다.**  
+>>  **그렇다면 linear workflow는 무엇인가?**  
 <img src="https://image.benq.com/is/image/benqco/gamma-1?$ResponsivePreset$" width="600" height="400">  
 
 (https://www.benq.com/en-us/knowledge-center/knowledge/gamma-monitor.html)
+
+<img src="https://user-images.githubusercontent.com/60923302/118788622-ecc46600-b8ce-11eb-843c-c985eb6be98e.png" width="600" height="500">  
+
+위의 그림을 보자면 먼저 인간의 눈은 [베버의 법칙](http://www.ktword.co.kr/test/view/view.php?m_temp1=4166)
+
+
 
 
 
