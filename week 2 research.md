@@ -38,7 +38,16 @@
 
 <img src="https://user-images.githubusercontent.com/60923302/118788622-ecc46600-b8ce-11eb-843c-c985eb6be98e.png" width="600" height="500">  
 
-위의 그림을 보자면 먼저 인간의 눈은 [베버의 법칙](http://www.ktword.co.kr/test/view/view.php?m_temp1=4166)
+위의 그림을 보자면 먼저 인간의 눈은 [베버의 법칙](http://www.ktword.co.kr/test/view/view.php?m_temp1=4166) 때문에 어두운 색에 훨씬 민감하다. 이로 인해 어두운 환경에서 조금의 빛만 있더라도 감지 할 수 있으나 밝은 환경에서 조금의 빛은 감지할 수 없다. 우리는 gamma color space의 그라데이션이 더 자연스럽다고 느껴지지만 실제로 수학정으로 정의한 정확한 값은 linear space이다. 
+1. **즉, 선형 색 공간의 그라데이션을 감마 색 공간의 그라데이션처럼 우리가 자연스럽게 인지하려면 감마값을 조정을 해야한다.**  
+  
+1) 원래 색 그 자체는 linear로 표현되어야 맞지만 우리가 보는 crt 모니터가 각종 display에서는 gamma값을 낮추어 표현한다.  
+
+2) 디스플레이에서 보여줄때 linmear처럼 보여주기 위해 일부러 밝게 이미지를 저장하는 것이고 gamma값을 낮추어 표현하게 된다면 우리가 보게되는 색상이 linear로 보인다.  
+
+3) 컴퓨터가 이미지를 저장할때 (jpg. png, gif, jpeg ..etc)포맷들은 감마보정으로 밝게 저장되지만 (raw, exr)같은 파일들은 감마보정이 없다.  
+
+4) 그래서 exr이나 raw파일로 color grading을 해야 조금 더 자연스럽고 다양한 범위의 color manage가 가능하다.
 
 
 
