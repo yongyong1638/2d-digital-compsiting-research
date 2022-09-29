@@ -67,14 +67,14 @@
 
 <img src="https://docs.unity3d.com/uploads/Main/LinearRendering-Infinite3DHeadScan.jpg" width="600" height="400"> 
 
-위의 그림처럼 이미 감마 보정이 되어있는 이미지의 STOP(조명강도)을 차례대로 높히면 밝게 저장되어 있는 부분이 기하급수적으로 밝아져 표현가능한 WHITE가 뭉개져버린다. 이는 이미지의 손실을 야기하고 좋은 결과물을 낼 수 없다. 선형 랜더링의 경우 STOP이 높아져도 선형으로 유지된다. 이는 더 사실적인 음영 표현을 통해서 더 좋은 색 보정이 가능하다. 이렇기 때문에 **우리는 LINEAR WORKFLOW를 사용하는 것이 좋다**  
+위의 그림처럼 이미 감마 보정이 되어있는 이미지의 STOP(조명강도)을 차례대로 높히면 밝게 저장되어 있는 부분이 기하급수적으로 밝아져 표현가능한 WHITE가 뭉개져버린다. 이는 이미지의 손실을 야기하고 좋은 결과물을 낼 수 없다. 선형 랜더링의 경우 STOP이 높아져도 선형으로 유지된다. 이는 더 사실적인 음영 표현을 통해서 더 좋은 색 보정이 가능하다. 이렇기 때문에 **우리는 컬러그레이딩시 LINEAR WORKFLOW를 사용한다**  
 
 (https://docs.unity3d.com/Manual/LinearRendering-LinearOrGammaWorkflow.html)  
 
 ***
 ## 다시 ACES로 돌아와서.  
 
-위에서 언급했듯 aces의 작업방식을 채택한 이유는 간단하다. linear workflow 방식을 따라가기 때문이다. 
+위에서 언급했듯 aces의 작업방식을 채택한 이유는 간단하다. **linear workflow 방식을 따라가기 때문이다.** 
 
 
 
