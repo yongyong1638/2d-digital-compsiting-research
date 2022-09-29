@@ -65,7 +65,7 @@
 
 이렇게 **색도를 표현하기 위한 x, y값**, 그리고 **밝기를 표현하기 위한 Y값**을 사용하여 CIEXYZ 표색계를 3차원 공간 개념으로 표현한 것을 **CIExyY Color Space**이라고 한다.
 
-그리고 CIExyY에서 색도를 나타내는 x, y값을 **직교좌표계**로 나타낸 것을 **색공간 색도도(CIE 1931 Color Space Chromaticity Diagram)**이라 한다. **이런 색도도(chromaticity diagram)는 결국 3차원 색 공간을 색도를 기준으로 2차원으로 표현한 도표이다.** 
+그리고 CIExyY에서 색도를 나타내는 x, y값을 **직교좌표계**로 나타낸 것을 **색공간 색도도(CIE 1931 Color Space Chromaticity Diagram)** 이라 한다. **이런 색도도(chromaticity diagram)는 결국 3차원 색 공간을 색도를 기준으로 2차원으로 표현한 도표이다.** 
 
 <img src= "https://www.scratchapixel.com/images/upload/color/rgbcube.png" />  
 
