@@ -89,6 +89,8 @@
 
 (https://www.youtube.com/watch?v=xxlBTiNvYzE&t=315s)
 
+aces workflow는 수업 끝나고 하는걸로..
+
 
 
 
