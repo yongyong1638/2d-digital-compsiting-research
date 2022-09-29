@@ -77,6 +77,8 @@
 > **A LUT, or Lookup Table, is an image file containing a mapping between colors in one color space to those in another.**  
  lut은 컬러 맵핑 이미지 파일이다.  
  영상 언어로 말하자면 텔레비전 카메라 또는 컴퓨터 그래픽 시스템의 비디오 디스플레이 설정을 말한다. 
+ 
+ <img src= "https://s.studiobinder.com/wp-content/uploads/2019/02/What-is-LUT-LUT-Color-Grading-Ridley-Scott-Film-LUTs-Pack.jpg">
 
 (https://filmlifestyle.com/what-is-a-lut/)
 
@@ -85,8 +87,11 @@
 
 > 1D LUTs rely on modifying levels, curves, tone mapping, and other basic adjustments in order to create an effect. These effects usually consist of saturation or hue changes as well as contrast changes in order to make colors pop out more prominently or appear differently than they would naturally on camera. 
 
-1d LUT은 레벨, 곡선, 톤 매핑 및 기타 기본 조정 수정에 의존 -> 카메라로 보는 것보다 더 드라마틱한 변화 혹은 다르게 보일 수 있다. 
+1d LUT은 레벨, 곡선, 톤 매핑 및 기타 기본 조정 수정에 의존 -> 카메라로 보는 것보다 더 눈에 띄게 변화 혹은 다르게 보일 수 있다. 영상물 등급의 복잡성을 담기에 부족.  
 
+
+그래서 우리는 3d lut을 사용해야한다
+ <img src= "https://mixinglight.com/wp-content/uploads/2014/08/1D-vs-3D-Luts-The-Colorists%E2%80%99-Perspective-ML0210.jpg" >
 (https://www.youtube.com/watch?v=xxlBTiNvYzE&t=315s)
 
 aces workflow는 수업 끝나고 하는걸로..
