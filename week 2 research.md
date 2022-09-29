@@ -72,11 +72,22 @@
 (https://docs.unity3d.com/Manual/LinearRendering-LinearOrGammaWorkflow.html)  
 
 ***
-## 다시 ACES로 돌아와서.  
+## What is lut?  
 
-위에서 언급했듯 aces의 작업방식을 채택한 이유는 간단하다. **linear workflow 방식을 따라가기 때문이다.** 
+> **A LUT, or Lookup Table, is an image file containing a mapping between colors in one color space to those in another.**  
+ lut은 컬러 맵핑 이미지 파일이다.  
+ 영상 언어로 말하자면 텔레비전 카메라 또는 컴퓨터 그래픽 시스템의 비디오 디스플레이 설정을 말한다. 
 
+(https://filmlifestyle.com/what-is-a-lut/)
 
+**lut color grading 2d, 3d**  
+2d color grading은 평면 x,y로 이루어져 있고 3d는 color grading은 x,y,z로 깊이감이 있다. 
+
+> 1D LUTs rely on modifying levels, curves, tone mapping, and other basic adjustments in order to create an effect. These effects usually consist of saturation or hue changes as well as contrast changes in order to make colors pop out more prominently or appear differently than they would naturally on camera. 
+
+1d LUT은 레벨, 곡선, 톤 매핑 및 기타 기본 조정 수정에 의존 -> 카메라로 보는 것보다 더 드라마틱한 변화 혹은 다르게 보일 수 있다. 
+
+(https://www.youtube.com/watch?v=xxlBTiNvYzE&t=315s)
 
 
 
