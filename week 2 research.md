@@ -93,11 +93,19 @@
 그러나 hue나 saturation을 보정해보면 1d lut에서는 아무런 변화가 없다. 그래서 휘도곡선(gamma)을 보정할때 사용.
 
 3d lut은 1d lut에서 표현하지 못하는 hue 와 saturation 값까지 담을 수 있다. 그 이유는 아래 그래프 처럼 z축의 공간 좌표가 생기기 때문이다.
-1d lut과 달리 3d lut은 1:1 매치를 해버리면 많은 좌표값들이 필요하기에 일부 값만 표시하고 나머지는 보관한다.
+1d lut과 달리 3d lut은 1:1 매치를 해버리면 많은 좌표값들이 필요하기에 일부 값만 표시하고 나머지는 컴퓨터가 보간해서 사잇 값을 구한다.
 그렇기에 예를 10bit 값을 17 x 17 x 17로 표현
 
  <img src= "https://mixinglight.com/wp-content/uploads/2014/08/1D-vs-3D-Luts-The-Colorists%E2%80%99-Perspective-ML0210.jpg" >
 (https://www.youtube.com/watch?v=xxlBTiNvYzE&t=315s)  
+
+
+##Scene referred
+DIgital 카메라와 Display들의 발달로 인해 다양한 포멧의 영상들을 편집하여 플레이 기기에 맞게끔 영상을 내보냈어야 했고 srgb color space 부터 rec2020까지 다양한 컬러 스페이스의 통합이 필요했음.
+그래서 우리는 unified color space wide hamut high dynamic range를 만들었고 aka 통합 색공간은 동일한 범위, 화이트 포인트, 같은 전달 함수를 사용.
+vfx 부서에서 acescg로 compositing을 하여 di 부서로 넘김 (디지털중간작업) di 부서에서는 최종적인 색보정을 표현 의도에 맞춰 작업하고 각종 디스플레이 장치에 맞춰 디스플레이 변환을 한다.    
+원본 소스들은 aces 2065-1로 변환하여 아카이브한다.
+
 
 
 
