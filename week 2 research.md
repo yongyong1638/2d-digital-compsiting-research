@@ -103,9 +103,12 @@
 ## Scene referred  
 ***  
 
-DIgital 카메라와 Display들의 발달로 인해 다양한 포멧의 영상들을 편집하여 플레이 기기에 맞게끔 영상을 내보냈어야 했고 srgb color space 부터 rec2020까지 다양한 컬러 스페이스의 통합이 필요했음.
-그래서 우리는 **unified color space wide hamut high dynamic range**를 만들었고 aka 통합 색공간은 동일한 범위, 화이트 포인트, 같은 전달 함수를 사용.
-vfx 부서에서 acescg로 compositing을 하여 di 부서로 넘김 (디지털중간작업) di 부서에서는 최종적인 색보정을 표현 의도에 맞춰 작업하고 각종 디스플레이 장치에 맞춰 디스플레이 변환을 한다.    
+DIgital 카메라와 Display들의 발달로 인해 다양한 포멧의 영상들을 편집하여 플레이 기기에 맞게끔 영상을 내보냈어야 했고 srgb color space 부터 rec2020까지 다양한 컬러 스페이스의 통합이 필요했음.  
+
+그래서 우리는 **unified color space wide hamut high dynamic range**를 만들었고 aka 통합 색공간은 동일한 범위, 화이트 포인트, 같은 전달 함수를 사용.  
+
+vfx 부서에서 acescg로 compositing을 하여 di 부서로 넘김 (디지털중간작업) di 부서에서는 최종적인 색보정을 표현 의도에 맞춰 작업하고 각종 디스플레이 장치에 맞춰 디스플레이 변환을 한다.  
+
 원본 소스들은 aces 2065-1로 변환하여 아카이브한다.  
 
  <img src= "https://www.filmriot.com/wp-content/uploads/2020/12/Display-Referred-Workflow-Diagram.jpeg" width="600" height="600" >  
