@@ -83,19 +83,24 @@
 
 (https://filmlifestyle.com/what-is-a-lut/)
 
-**lut color grading 2d, 3d**  
+**lut color grading 1d, 3d**  
 2d color grading은 평면 x,y로 이루어져 있고 3d는 color grading은 x,y,z로 깊이감이 있다. 
+1D LUT은 입력값 X와 출력값 Y가 1:1로 매칭이 된다. 즉 10BIT의 뎁스는 2^10 1024개의 테이블 값을 가지게 된다.
 
 > 1D LUTs rely on modifying levels, curves, tone mapping, and other basic adjustments in order to create an effect. These effects usually consist of saturation or hue changes as well as contrast changes in order to make colors pop out more prominently or appear differently than they would naturally on camera. 
 
-1d LUT은 레벨, 곡선, 톤 매핑 및 기타 기본 조정 수정에 의존 -> 카메라로 보는 것보다 더 눈에 띄게 변화 혹은 다르게 보일 수 있다. 영상물 등급의 복잡성을 담기에 부족.  
+1d LUT은 레벨, 곡선, 톤 매핑 및 기타 기본 조정 수정에 의존 -> 1d lut은 커브곡선이나 커브를 움직이는 보정값인 lift gamma gain contrast들과 1:1로 매치가 된다. 
+그러나 hue나 saturation을 보정해보면 1d lut에서는 아무런 변화가 없다. 그래서 휘도곡선(gamma)을 보정할때 사용.
 
+3d lut은 1d lut에서 표현하지 못하는 hue 와 saturation 값까지 담을 수 있다. 그 이유는 아래 그래프 처럼 z축의 공간 좌표가 생기기 때문이다.
+1d lut과 달리 3d lut은 1:1 매치를 해버리면 많은 좌표값들이 필요하기에 일부 값만 표시하고 나머지는 보관한다.
+그렇기에 예를 10bit 값을 17 x 17 x 17로 표현
 
-그래서 우리는 3d lut을 사용해야한다
  <img src= "https://mixinglight.com/wp-content/uploads/2014/08/1D-vs-3D-Luts-The-Colorists%E2%80%99-Perspective-ML0210.jpg" >
-(https://www.youtube.com/watch?v=xxlBTiNvYzE&t=315s)
+(https://www.youtube.com/watch?v=xxlBTiNvYzE&t=315s)  
 
-aces workflow는 수업 끝나고 하는걸로..
+
+
 
 
 
