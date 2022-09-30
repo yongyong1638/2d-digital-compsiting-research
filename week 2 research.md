@@ -114,7 +114,7 @@ vfx 부서에서 acescg로 compositing을 하여 di 부서로 넘김 (디지털�
  <img src= "https://www.filmriot.com/wp-content/uploads/2020/12/Display-Referred-Workflow-Diagram.jpeg" width="600" height="600" >  
  <img src= "https://www.filmriot.com/wp-content/uploads/2020/12/Scene-Referred-Workflow-Diagram.webp" width="600" height="600" align="right" >  
 
-
+(https://www.filmriot.com/blog/scene-referred-vs-display-referred/)
 
 
 
