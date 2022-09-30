@@ -108,7 +108,8 @@ DIgital 카메라와 Display들의 발달로 인해 다양한 포멧의 영상�
 vfx 부서에서 acescg로 compositing을 하여 di 부서로 넘김 (디지털중간작업) di 부서에서는 최종적인 색보정을 표현 의도에 맞춰 작업하고 각종 디스플레이 장치에 맞춰 디스플레이 변환을 한다.    
 원본 소스들은 aces 2065-1로 변환하여 아카이브한다.  
 
- <img src= "http://www.colorfront.com/doc/general/SingleMasterWP/images/wp_single_master_display.png" >
+ <img src= "https://www.filmriot.com/wp-content/uploads/2020/12/Display-Referred-Workflow-Diagram.jpeg" width="600" height="600" >  
+ <img src= "https://www.filmriot.com/wp-content/uploads/2020/12/Scene-Referred-Workflow-Diagram.webp" width="600" height="600" align="right" >  
 
 
 
