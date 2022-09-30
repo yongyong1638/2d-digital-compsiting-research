@@ -75,6 +75,7 @@
 ## What is lut?  
 
 > **A LUT, or Lookup Table, is an image file containing a mapping between colors in one color space to those in another.**  
+   
  lut은 컬러 맵핑 이미지 파일이다.  
  영상 언어로 말하자면 텔레비전 카메라 또는 컴퓨터 그래픽 시스템의 비디오 디스플레이 설정을 말한다. 
  
