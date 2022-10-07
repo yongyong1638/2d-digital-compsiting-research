@@ -130,7 +130,7 @@ foreground midground background
 <img src="https://nofilmschool.com/sites/default/files/styles/article_wide/public/color-emotions.png?itok=BYvFuPsD">  
 색이 주는 감정을 통해 원하는 look 제작 가능.
 
-### **plot and script**  
+* **plot and script**  
 촬영 그리고 3d 작업하는 사람들 썸네일에서 스토리보드 그린다음에 바로 제작들어가는 경우가 많은데
 내가 처음에 기획했을떄 가졌던 생각이 촬영하고 편집하고 서로 최종 결과본에서 바뀐다. 여기서 왜 이렇게 찍었지 왜 이렇게 색감을 줬지등  
 
