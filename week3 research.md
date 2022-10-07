@@ -31,6 +31,10 @@
 > Matte painting is an art carried out through patience and time.
 A complete understanding of the way that light, shadow, and color dynamics change depending on the surface, time of day, and distance are vital.
 
->> 우리는 이를 통해서 표면, 시간 및 거리에 따라 빛, 그림자 및 색상 범위가 변하는 방식을 이해하는 것이 중요하다.
->>  
+우리는 이를 통해서 표면, 시간 및 거리에 따라 빛, 그림자 및 색상 범위가 변하는 방식을 이해하는 것이 중요하다.  
+***  
+## visual languages for storytellings  
+시각 언어 스토리텔링  
+
+
 
