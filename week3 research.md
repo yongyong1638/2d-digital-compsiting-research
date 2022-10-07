@@ -105,11 +105,17 @@ A complete understanding of the way that light, shadow, and color dynamics chang
 
 * **패턴 구도**  
   
-<img src="https://mymodernmet.com/wp/wp-content/uploads/2017/01/geometric-shots-the-shining.png">  
+<img src="https://mymodernmet.com/wp/wp-content/uploads/2017/01/geometric-shots-the-shining.png" width="600" >  
 
 * **depth**  
   
-전경 중경 후경  
+foreground midground background 
+
+<img src="https://nofilmschool.com/sites/default/files/styles/facebook/public/citizen_kane.jpg?itok=ujPv7o0i" width="600" height="350" >  
+
+<img src="https://images.squarespace-cdn.com/content/v1/51cdafc4e4b09eb676a64e68/1618602532707-3OAII3QVHYKCW3KJ1HJU/cars_boast.jpg" width="600" height="350" >  
+
+
 overlap  
 aerial diffusion  
 texture diffusion  
