@@ -102,7 +102,9 @@ A complete understanding of the way that light, shadow, and color dynamics chang
 * 안정감을 느껴주게하고 친절하고 믿음주고 정직해보임.  질서가 있어 보이고 주로 표면의 바닥과 같은 부분에서 많이 나온다.  
 <img src="https://i.pinimg.com/736x/5d/35/4d/5d354db90fdc371480f439c150598cd0.jpg">  
 
-
+* **패턴 구도** 
+강력한 이미지 연출가능. 
+<img src="https://mymodernmet.com/wp/wp-content/uploads/2017/01/geometric-shots-the-shining.png">  
 
 
 
