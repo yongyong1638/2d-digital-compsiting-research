@@ -75,7 +75,7 @@ A complete understanding of the way that light, shadow, and color dynamics chang
  
 삼등분 구도. 선들이 겹치는 부분에 피사체를 지정하면 안정적이게 보인다. 뿐만 아니라 시선을 그쪽으로 유도할 수 있다.  
 
-<img src="https://s.studiobinder.com/wp-content/uploads/2010/02/Rule-of-Thirds-Joker-Featured-StudioBinder-min.jpg" width="600" height="400">
+<img src="https://s.studiobinder.com/wp-content/uploads/2010/02/Rule-of-Thirds-Joker-Featured-StudioBinder-min.jpg" width="600" height="350">
 
 * **프레임 frame**  
 
@@ -115,11 +115,22 @@ foreground midground background
 
 <img src="https://images.squarespace-cdn.com/content/v1/51cdafc4e4b09eb676a64e68/1618602532707-3OAII3QVHYKCW3KJ1HJU/cars_boast.jpg" width="600" height="350" >  
 
+**공간감을 나타내기에는 fog가 좋긴하지만 너무 많이 남용하면 공간의 quality가 떨어짐.**  
 
-overlap  
-aerial diffusion  
-texture diffusion  
-size difference  
+* **color**  
+색 보정은 항상 마지막에 합성본을 다 만들고 나서 하는 것. DI팀에서 맞춰주는 것.  
+
+<img src="https://whistlingwoodsinternational.files.wordpress.com/2014/03/tumblr_n2kbgbg1id1s6aghro1_1280-1.jpg" width="600" height="350" >  
+우리가 영화를 보면서 색이주는 이미지의 선입견을 가지게 됨.  
+같은 장면이더라도 gamut의 활용에 따라서 느껴지는 분위기가 서로 다르게 만들 수 있다.  
+
+* **assioation**  
+
+<img src="https://nofilmschool.com/sites/default/files/styles/article_wide/public/color-emotions.png?itok=BYvFuPsD">  
+색이 주는 감정을 통해 원하는 look 제작 가능.
+
+
+
 
 
 
