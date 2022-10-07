@@ -35,8 +35,9 @@ A complete understanding of the way that light, shadow, and color dynamics chang
 ***  
 ## visual languages for storytellings  
 시각 언어 스토리텔링  
-**명도** 대비 선예도 정리 **value** contrast sharpness  
-보았던 작품들에서 찾아서 정리를 해놓자. 명도의 대비는 시선의 흐름을 붙잡아준다.  
+**명도**  
+
+명도의 대비는 시선의 흐름을 붙잡아준다.  
 가장 강조하고 싶은 부분에 명도의 차이를 주어 focal point 제작.
 <img src= "https://images.squarespace-cdn.com/content/v1/58f49dcb86e6c023e6b22cfa/1591192681339-U39HABJAIDMT485J1OM0/grey+scale.JPG" width="700" height="300" >  
 
@@ -129,6 +130,13 @@ foreground midground background
 <img src="https://nofilmschool.com/sites/default/files/styles/article_wide/public/color-emotions.png?itok=BYvFuPsD">  
 색이 주는 감정을 통해 원하는 look 제작 가능.
 
+### **plot and script**  
+촬영 그리고 3d 작업하는 사람들 썸네일에서 스토리보드 그린다음에 바로 제작들어가는 경우가 많은데
+내가 처음에 기획했을떄 가졌던 생각이 촬영하고 편집하고 서로 최종 결과본에서 바뀐다. 여기서 왜 이렇게 찍었지 왜 이렇게 색감을 줬지등  
+
+color script를 통해서 우리가 연출하고자 하는 이미지의 분위기를 표현해놔야 기승전결의 계획을 할 수 있다.  
+
+<img src="https://i.pinimg.com/originals/74/42/73/744273fcbc11ac54d58c825428a7aa3d.jpg"> 
 
 
 
