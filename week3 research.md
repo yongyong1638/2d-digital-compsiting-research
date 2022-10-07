@@ -45,8 +45,26 @@ A complete understanding of the way that light, shadow, and color dynamics chang
 **대비 sharpness**  
 질감의 대비 -> 거칠거칠하고 부들부들한 재질의 대비, 무채색과 유채색의 색채 대비. 주제와 주제가 아닌 것들의 contrast제작
 
-**선예도 sharpness**
-초점이 맞아 있고 더 선명한 이미지일수록 시선이 오래 머물게 된다. 
+**선예도 sharpness**  
 
+초점이 맞아 있고 더 선명한 이미지일수록 시선이 오래 머물게 된다.  
+아웃 포커싱을 이용하여 내가 보여주고자하는 주체에 집중을 시켜 관객에게 보여준다.  
+
+<img src= "http://image.dongascience.com/Photo/2017/05/14957722368824.jpg">
+봄날은 간다 속 남자주인공의 심정을 대변하기 위해 여자가 뒤를 돌아보고 제스처를 취해도 초점이 남자주인공에게 계속 머물러 남자의 심정을 대변.  
+
+**조리개 depth of field**  
+조리개를 개방하면 개방할수록 초점거리가 가깝고 조일수록 멀어진다. 우리가 보여주고자 하는 분위기를 연출할때 이의 특성에 맞추어 연출.  
+
+<img src= "https://cdn.photographypro.com/wp-content/uploads/2017/12/aperture-10.png">  
+
+**구도 composition** 
+배치와 구도, 각각의 구도가 주는 느낌등 보는 사람을 조작할 수 있다.  
+
+<img src="https://www.muddycolors.com/wp-content/uploads/2021/04/comp_banner.jpg">  
+
+센터 구도는 가장 강력하면서도 자칫 잘못하면 촌스러워 보일 수 있는 위험한 힘을 가지고 있는 구도이다.  
+인물의 중요성과 힘 권력 지위등을 나타낼 수도 있다.
+<img src="https://t1.daumcdn.net/cfile/tistory/2359904E53550CBA03">
 
 
