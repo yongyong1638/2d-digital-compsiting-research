@@ -35,6 +35,18 @@ A complete understanding of the way that light, shadow, and color dynamics chang
 ***  
 ## visual languages for storytellings  
 시각 언어 스토리텔링  
+**명도** 대비 선예도 정리 **value** contrast sharpness  
+보았던 작품들에서 찾아서 정리를 해놓자. 명도의 대비는 시선의 흐름을 붙잡아준다.  
+가장 강조하고 싶은 부분에 명도의 차이를 주어 focal point 제작.
+<img src= "https://images.squarespace-cdn.com/content/v1/58f49dcb86e6c023e6b22cfa/1591192681339-U39HABJAIDMT485J1OM0/grey+scale.JPG" width="700" height="300" >  
+
+<img src= "https://d16kd6gzalkogb.cloudfront.net/magazine_images/Gerrit-Van-Honthorst-The-Matchmaker.-Image-via-wikipediacom1.jpg" width="600" height="400" >
+
+**대비 sharpness**  
+질감의 대비 -> 거칠거칠하고 부들부들한 재질의 대비, 무채색과 유채색의 색채 대비. 주제와 주제가 아닌 것들의 contrast제작
+
+**선예도 sharpness**
+초점이 맞아 있고 더 선명한 이미지일수록 시선이 오래 머물게 된다. 
 
 
 
