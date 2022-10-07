@@ -138,7 +138,7 @@ color script를 통해서 우리가 연출하고자 하는 이미지의 분위�
 
 <img src="https://i.pinimg.com/originals/74/42/73/744273fcbc11ac54d58c825428a7aa3d.jpg"> 
 
-
+영화 조커 속에서 위의 이미지들을 이용하여 찾아보자.  
 
 
 
