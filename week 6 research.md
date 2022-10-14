@@ -25,11 +25,16 @@ sparate by objects
 stabilize plate  
 
 일반적인 상황에서는 삼각대 위에서 대부분 찍는다. 흔들리는 것을 로토 딴다고하면 tracking을 통해 움직이는 plate를 역방향으로 회전을 시키면
-움직임이 멈춰보인다.
+움직임이 멈춰보인다. 
 
-rimary and sccondary forms  
+primary and sccondary forms  
+
+시퀀스 안에서 메인으로 움직이는 형체와 부수적인 형체를 쪼개서 작업해야한다.  
+포인트들을 수정하는 것보다는 scondary thing까지 shape을 맞춰줘야한다.
 
 use rotational points  
+해부학적인 움직임을 추척할때 사용.  
+
 
 
 ## merge  
