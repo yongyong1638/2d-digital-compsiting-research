@@ -59,7 +59,19 @@ use rotational points
 
 ## merge  
 
-이미지와 이미지를 연결했을때 결과가 나올것인지 계산.
+이미지와 이미지를 연결했을때 결과가 나올것인지 계산. 
+
+merge node.  
+a랑 b input이 있고 mask가 있는데
+항상 모든 merge는 파이프라인이 1직선이 되어 내려오게 해야한다.
+배경 이미지가 최상단에 있고 read merge 
+
+over가 layer 2개를 합치는 것인데 a+b(1-a)
+누크에서는 alpha도 이미지 채널이다. 즉 a는 원본이미지이고 b배경이미지를 뒤에 넣고 싶다면
+
+a이미지의 roto가 b 배경에서 그 모양대로 구멍을 내고 a이미지가 위에 얹어 지는 것이다.
+
+
 
 
 ## rotopaint  
