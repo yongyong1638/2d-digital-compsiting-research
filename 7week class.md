@@ -54,7 +54,15 @@ Anti-Aliasing 과정을 통해서 매끄럽게 만든다.
 **keyer**  
 keylight과 ibk gizmo 노드 주로 사용
 
-soft key, hard key+ keymix
+soft key, hard key+ keymix  
+
+hard key에서 key light과 filtererode를 통하여 딱딱한 인물의 누끼를 따준다.
+
+soft key에서 keymix와 roto를 이용해 주변 배경을 정리하고
+
+channelmerge를 통하여 인물의 누끼와 검은배경을 합친다.
+
+
 
 diffrenece key
 같은 배경에서 인물만 빼고 싶을때 사용?
