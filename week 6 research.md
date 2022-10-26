@@ -46,10 +46,10 @@
 
 
 **1. identify motion path**  
-frame by frame으로 잡지말고 크게 크게 잡아야함. 나중에 일일히 key를 다 잡아줘야하는 불상사가 생길 수 있음.
+frame by frame으로 잡지말고 크게 크게 잡아야한다. 나중에 일일히 key를 다 잡아줘야하는 불상사가 생길 수 있다.
 
 **2. sparate by objects** 
-일단 오브젝트 별로 구분하는 것. 물병을 들고 있는 샷에서 물병을 지워야 한다고 해도 잡고있는 손까지도 스코핑을 해야함.  
+일단 오브젝트 별로 구분하는 것. 물병을 들고 있는 샷에서 물병을 지워야 한다고 해도 잡고있는 손까지도 스코핑을 해야한다.  
 
 
 **3. stabilize plate**  
@@ -63,7 +63,7 @@ frame by frame으로 잡지말고 크게 크게 잡아야함. 나중에 일일�
 포인트들을 수정하는 것보다는 scondary thing까지 shape을 맞춰줘야한다.
 
 **5. use rotational points**  
-해부학적인 움직임을 추척할때 사용.  
+해부학적인 움직임을 추척할때 사용한다.  
 
 
 
@@ -78,10 +78,9 @@ frame by frame으로 잡지말고 크게 크게 잡아야함. 나중에 일일�
 
 
 
-**merge node중 OVER 공식** 
-<img src="https://i0.wp.com/artofvfx.com/wp-content/uploads/2019/08/AvengersEndgame_CapvsCap_MOF_VFX.jpg?ssl=1">  
+<img src="https://i0.wp.com/artofvfx.com/wp-content/uploads/2019/08/AvengersEndgame_CapvsCap_MOF_VFX.jpg?ssl=1" width="640" height="360">  
 
-<img src="https://beforesandafters.com/wp-content/uploads/2019/05/CapvCap-e1557913128833.jpg">
+<img src="https://beforesandafters.com/wp-content/uploads/2019/05/CapvCap-e1557913128833.jpg" width="640" height="360">
 
 
 merge operation 중에 over는 layer 2개를 합치는 것인데  
@@ -106,7 +105,7 @@ merge operation 중에 over는 layer 2개를 합치는 것인데
 **불필요한 요소들 제거하고 배우나 어떤 사물에 들어있는 불필요한 요소를 지울때 사용한다.** 
 일반적인 photoshop의 stamp툴과 비슷하며 brush가 2개있다. clean up 개념이다.
 
-<img src="https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs2/100257298/original/265b1bd8c0ddf2d9e1f24c066c86ec4c294c3a83/stereoscopic-and-remove-background-rotoscoping-24-hours.jpg">
+<img src="https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs2/100257298/original/265b1bd8c0ddf2d9e1f24c066c86ec4c294c3a83/stereoscopic-and-remove-background-rotoscoping-24-hours.jpg" width="640" height="360">
 
 ~~seems disguesting..~~  
 
