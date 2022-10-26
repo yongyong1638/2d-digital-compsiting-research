@@ -20,16 +20,20 @@
 
 [foundry](https://support.foundry.com/hc/ko/articles/208961109--Q100154-Nuke-%EC%97%90%EC%84%9C-%EC%B0%B8%EC%A1%B0%ED%95%98%EB%8A%94-%EC%83%81%EB%8C%80-%ED%8C%8C%EC%9D%BC-%EA%B2%BD%EB%A1%9C)
 
-# rotoscoping
+# rotoscoping  
+***
 
 **what is rotoscoping?**  
 
 
 사진에 tracing 작업하여 촬영본에 덧그려서 만드는 작품.  
-우리는 원하는 이미지를 원본 플레이트에서 분리하는 작업. -> **따로 분리하여 alpha 채널을 만들어 쉽게 분리하는 것이 목표**  
+우리는 원하는 이미지를 원본 플레이트에서 분리하는 작업. -> **따로 분리하여 alpha 채널을 만들어 쉽게 분리하는 것이 목표** 
+<img src="https://nickharkerblog.files.wordpress.com/2017/01/363938477_1280x720.jpg?w=1200" width="640" height="360" >
+
+<img src="https://www.foundry.com/sites/default/files/styles/hero_1440_x_825_/public/paragraphs/zoomable-gallery/SmartROTO%20-%20SidebySide%202.jpg?itok=Bsz-BNST" width="640" height="360" >  
 
 
-**스코핑을 할때는 이미지를 분리하여서 각각 관절별로 뭉텅이뭉텅이 따주어야 수정이 용이하다.**  
+**직접 스코핑을 해본 결과 이미지를 분리하여서 각각 관절별로 뭉텅이뭉텅이 따주어야 수정이 용이하다.**  
 우리가 shape을 그릴때도 물체가 어떠한 특성을 가지고 움직이는지 파악하고 들어가야한다. hard surface는 변형이 거의 없음으로 하나로 묶어서 표현해도 됨.  
 배경과 공간과 시간을 바꿔줄 수 있다는 점.
 전체 쉐입을 유지해주는 포인트들은 최대한 안건들이는게 낫다.
