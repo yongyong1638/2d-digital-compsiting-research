@@ -1,4 +1,4 @@
-# rotoscoping  
+# nuke 경로지정
 ***  
 **nuke 절대경로 상대경로** 
 
@@ -7,19 +7,27 @@
 ./이라는 표시는 같은 폴더 안에 이미지가 있다라고 알려주는 것. 
 그래서 **nk파일**의 상대위치를 우리가 images 폴더 안에 greenscreenboy . tif가 있다면 ./iamges/greenscreenboy.tif를 file명 안에 넣어주면 된다.  
 
-현재 위치= ./
-상위 폴더= ../
-또 그 위에 폴더= ../../
+현재 위치= ./  
+
+상위 폴더= ../  
+
+또 그 위에 폴더= ../../  
+
 
 **절대 경로 위의 폴더 차례대로 뒤에서부터 거슬러 올라간다는 느낌이다.
-모든 소스들과 오브젝트들을 한 개의 폴더 안에 다 묶어서 볼러와주자.**
+모든 소스들과 오브젝트들을 한 개의 폴더 안에 다 묶어서 볼러와주자.**  
 
-https://support.foundry.com/hc/ko/articles/208961109--Q100154-Nuke-%EC%97%90%EC%84%9C-%EC%B0%B8%EC%A1%B0%ED%95%98%EB%8A%94-%EC%83%81%EB%8C%80-%ED%8C%8C%EC%9D%BC-%EA%B2%BD%EB%A1%9C
 
+[foundry](https://support.foundry.com/hc/ko/articles/208961109--Q100154-Nuke-%EC%97%90%EC%84%9C-%EC%B0%B8%EC%A1%B0%ED%95%98%EB%8A%94-%EC%83%81%EB%8C%80-%ED%8C%8C%EC%9D%BC-%EA%B2%BD%EB%A1%9C)
+
+# rotoscoping
+
+**what is rotoscoping?**  
 
 
 사진에 tracing 작업하여 촬영본에 덧그려서 만드는 작품.  
 우리는 원하는 이미지를 원본 플레이트에서 분리하는 작업. -> **따로 분리하여 alpha 채널을 만들어 쉽게 분리하는 것이 목표**  
+
 
 **스코핑을 할때는 이미지를 분리하여서 각각 관절별로 뭉텅이뭉텅이 따주어야 수정이 용이하다.**  
 우리가 shape을 그릴때도 물체가 어떠한 특성을 가지고 움직이는지 파악하고 들어가야한다. hard surface는 변형이 거의 없음으로 하나로 묶어서 표현해도 됨.  
