@@ -102,14 +102,16 @@ merge operation 중에 over는 layer 2개를 합치는 것인데
 
 ## rotopaint  
 
-**불필요한 요소들 제거하고 배우나 어떤 사물에 들어있는 불필요한 요소를 지울때 사용한다.** 
-일반적인 photoshop의 stamp툴과 비슷하며 brush가 2개있다. clean up 개념이다.
+**배경에서 불필요한 요소들을 제거하고 배우나 어떤 사물에 들어있는 불필요한 요소를 지울때 사용한다.** 
+일반적인 photoshop의 stamp툴과 비슷하며 clean up 개념이다. 
 
 <img src="https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs2/100257298/original/265b1bd8c0ddf2d9e1f24c066c86ec4c294c3a83/stereoscopic-and-remove-background-rotoscoping-24-hours.jpg" width="640" height="360">
 
 ~~seems disguesting..~~  
 
+<img src="https://www.fxguide.com/wp-content/uploads/2011/10/Click_After.Life_color_c_roto.jpg" width="640" height="360">  
 
+이와 같이 인물 근처에 뭍은 먼지나 눈에 튀는 부분을 painting을 통해 보여주고자 하는 부분을 명확하게 보여줄때 사용한다.
 
 ##  tracking
 
