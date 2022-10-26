@@ -33,39 +33,36 @@
 <img src="https://www.foundry.com/sites/default/files/styles/hero_1440_x_825_/public/paragraphs/zoomable-gallery/SmartROTO%20-%20SidebySide%202.jpg?itok=Bsz-BNST" width="640" height="360" >  
 
 
-**직접 스코핑을 해본 결과 이미지를 분리하여서 각각 관절별로 뭉텅이뭉텅이 따주어야 수정이 용이하다.**  
-우리가 shape을 그릴때도 물체가 어떠한 특성을 가지고 움직이는지 파악하고 들어가야한다. hard surface는 변형이 거의 없음으로 하나로 묶어서 표현해도 됨.  
-배경과 공간과 시간을 바꿔줄 수 있다는 점.
++ **직접 스코핑을 해본 결과 이미지를 분리하여서 각각 관절별로 뭉텅이뭉텅이 따주어야 프레임별 수정이 용이하다.**  
+   
++ 우리가 shape을 그릴때도 물체가 어떠한 특성을 가지고 움직이는지 파악하고 들어가야한다. hard surface는 변형이 거의 없음으로 하나로 묶어서 표현해도 된다. 
 전체 쉐입을 유지해주는 포인트들은 최대한 안건들이는게 낫다.
-쉐입이 움직일때 모양이 안맞는다면 변형과 스케일 조절을 하는게 낫긴한데 ctrl shift alt 키를 이용하여 점을 수정하고 그래도 정 안되면 조금만 움직이는게 낫다.
+
++ 쉐입이 움직일때 모양이 안맞는다면 변형과 스케일 조절을 하는게 낫긴한데 ctrl shift alt 키를 이용하여 점을 수정하고 그래도 정 안되면 조금만 움직이는게 낫다.
 베지어 곡선을 수정할때 미세한 회전을 하고 싶다. 하면 shift 누르고 회전 시키면 snap 기능이 꺼진상태로 조정이 된다.  
-roto에서 오브젝트를 묶고 싶다면 layer을 만들어 준 다음에 안에 드래그해서 다 넣어준다. 그다음 transform 안에서 모양을 조정
-그다음 motion blur을 이용하여 움직임을 더 자연스럽게 만들 수 있다.
 
-모션블러같은 것도 넣을 수 있다.
++ roto에서 오브젝트를 묶고 싶다면 layer을 만들어 준 다음에 안에 드래그해서 다 넣어준다. 그다음 transform 안에서 모양을 조정
+그다음 motion blur을 이용하여 움직임을 더 자연스럽게 만들 수 있다.  
 
-## roto(scoping)  
 
-주로 alpha채널을 추출할때 사용.  
-
-identify motion path  
+1. identify motion path  
 frame by frame으로 잡지말고 크게 크게 잡아야함. 나중에 일일히 key를 다 잡아줘야하는 불상사가 생길 수 있음.
 
-sparate by objects 
+2. sparate by objects 
 일단 오브젝트 별로 구분하는 것. 물병을 들고 있는 샷에서 물병을 지워야 한다고 해도 잡고있는 손까지도 스코핑을 해야함.  
 
 
-stabilize plate  
+3. stabilize plate  
 
 일반적인 상황에서는 삼각대 위에서 대부분 찍는다. 흔들리는 것을 로토 딴다고하면 tracking을 통해 움직이는 plate를 역방향으로 회전을 시키면
 움직임이 멈춰보인다. 
 
-primary and sccondary forms  
+4. primary and sccondary forms  
 
 시퀀스 안에서 메인으로 움직이는 형체와 부수적인 형체를 쪼개서 작업해야한다.  
 포인트들을 수정하는 것보다는 scondary thing까지 shape을 맞춰줘야한다.
 
-use rotational points  
+5. use rotational points  
 해부학적인 움직임을 추척할때 사용.  
 
 
