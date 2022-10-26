@@ -45,49 +45,71 @@
 그다음 motion blur을 이용하여 움직임을 더 자연스럽게 만들 수 있다.  
 
 
-1. identify motion path  
+**1. identify motion path**  
 frame by frame으로 잡지말고 크게 크게 잡아야함. 나중에 일일히 key를 다 잡아줘야하는 불상사가 생길 수 있음.
 
-2. sparate by objects 
+**2. sparate by objects** 
 일단 오브젝트 별로 구분하는 것. 물병을 들고 있는 샷에서 물병을 지워야 한다고 해도 잡고있는 손까지도 스코핑을 해야함.  
 
 
-3. stabilize plate  
+**3. stabilize plate**  
 
 일반적인 상황에서는 삼각대 위에서 대부분 찍는다. 흔들리는 것을 로토 딴다고하면 tracking을 통해 움직이는 plate를 역방향으로 회전을 시키면
 움직임이 멈춰보인다. 
 
-4. primary and sccondary forms  
+**4. primary and sccondary forms**  
 
 시퀀스 안에서 메인으로 움직이는 형체와 부수적인 형체를 쪼개서 작업해야한다.  
 포인트들을 수정하는 것보다는 scondary thing까지 shape을 맞춰줘야한다.
 
-5. use rotational points  
+**5. use rotational points**  
 해부학적인 움직임을 추척할때 사용.  
 
 
 
-## merge  
+## merge operation  
 
-이미지와 이미지를 연결했을때 결과가 나올것인지 계산. 
+***
 
-merge node.  
-a랑 b input이 있고 mask가 있는데
-항상 모든 merge는 파이프라인이 1직선이 되어 내려오게 해야한다.
-배경 이미지가 최상단에 있고 read merge 
+**이미지와 이미지를 연결했을때 결과가 나올것인지 계산해주는 공식들이다.**  
 
-over가 layer 2개를 합치는 것인데 a+b(1-a)
-누크에서는 alpha도 이미지 채널이다. 즉 a는 원본이미지이고 b배경이미지를 뒤에 넣고 싶다면
+<img src="https://t1.daumcdn.net/cfile/tistory/2266BC3E5289F4E420">  
 
-a이미지의 roto가 b 배경에서 그 모양대로 구멍을 내고 a이미지가 위에 얹어 지는 것이다.
 
+
+
+**merge node중 OVER 공식** 
+<img src="https://i0.wp.com/artofvfx.com/wp-content/uploads/2019/08/AvengersEndgame_CapvsCap_MOF_VFX.jpg?ssl=1">  
+
+<img src="https://beforesandafters.com/wp-content/uploads/2019/05/CapvCap-e1557913128833.jpg">
+
+
+merge operation 중에 over는 layer 2개를 합치는 것인데  
+
+**a+b(1-a)**  
+
+**A라는 레이어의 인물과 B라는 레이어의 배경을 합친다고 하였을때 A의 ALPHA채널을 ROTO작업을 통해 추출하고**   
+
+**B라는 레이어의 배경에 A의 ALPHA값을 빼어 그 부분과 B의 배경을 PREMULT시켜 구멍을 내고 그 위에 A의 이미지를 얹어 배경을 합성한다.**  
+
+
++ 위의 크로마키에서 촬영한 캡틴아메리카 A와 빌딩 배경인 B를 준비한다.  
+
++ 크로마키에서 촬영된 캡틴아메리카를 CHROMA KEY 추출작업과 ROTO를 이용해 ALPHA값을 추출한다.  
+
++ B의 배경위에 A의 ALPHA값을 빼준뒤 PREMULT 시켜 B의 배경에 구멍을 내고 A의 이미지와 합성한다.  
 
 
 
 ## rotopaint  
 
-불필요한 요소들 제거하고 배우나 어떤 사물에 들어있는 불필요한 요소를 지울때 사용. 
-일반적인 photoshop의 stamp툴과 비슷하며 brush가 2개있다. clean up 개념.
+**불필요한 요소들 제거하고 배우나 어떤 사물에 들어있는 불필요한 요소를 지울때 사용한다.** 
+일반적인 photoshop의 stamp툴과 비슷하며 brush가 2개있다. clean up 개념이다.
+
+<img src="https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs2/100257298/original/265b1bd8c0ddf2d9e1f24c066c86ec4c294c3a83/stereoscopic-and-remove-background-rotoscoping-24-hours.jpg">
+
+~~seems disguesting..~~  
+
 
 
 ##  tracking
