@@ -13,7 +13,11 @@ ctrl alt키를 누르고 그래프를 체크하면 우리가 원하는 부분에
 
 ERODE FILTER는 하드 매트에 써주는 것인데 ERODE를 통해서 하드 키의 알파값을 안으로 줄여주어 소프트와 합쳐줬을때 경계선이 너무 튀지 않도록 해주는 것이다.
 KEYMIX는 소프트 매트에 써주는 것인데 KEYLIGHT으로 배경의 값을 뺏다면 KEYMIX를 통해서 여러개의 KEYLIGHT작업한 것들을 합쳐서
-마지막에 CHANNEL MERGE를 통해서 다 합쳐준뒤 합칠 배경의 이미지와 MERGE OVER을 통해 합쳐주면 된다.
+마지막에 CHANNEL MERGE를 통해서 다 합쳐준뒤 합칠 배경의 이미지와 MERGE OVER을 통해 합쳐주면 된다.  
+
+https://github.com/LumaPictures/LumaNukeGizmos.git  누크 루마누크기즈모
+https://github.com/CreativeLyons/NukeSurvivalToolkit_publicRelease.git 누크 서바이벌키트
+
 
 
 
