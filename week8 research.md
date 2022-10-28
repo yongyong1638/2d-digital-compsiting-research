@@ -18,6 +18,49 @@ KEYMIX는 소프트 매트에 써주는 것인데 KEYLIGHT으로 배경의 값�
 https://github.com/LumaPictures/LumaNukeGizmos.git  누크 루마누크기즈모
 https://github.com/CreativeLyons/NukeSurvivalToolkit_publicRelease.git 누크 서바이벌키트
 
+merge operation 중에 lightwrap기능 공부할 것.
+
+노드 선택 후 shift s누르면 a b가 바뀐다.
+
+shift s누르면 preference 창이 뜨는데 nodes 창을 보면 new merge nodes connect a input 창을 끈다. b노드를 우리는 1열로 내리고 a 노드에 추가되는 것들을 넣어주는게 좋다.
+tab키를 눌러 자주쓰는 것들을 등록해놓고 쓸 수 있다. favorite창.  
+localizationl storage를 우리가 쓸 수 있는 여유 공간만큼 설정을 해놓으면 되고
+우리가 파일을 들고 왔을때 localization policy를 on 시키면 외장하드에서 쓰던 파일을 네트워크로 불러오는게 아니라 로컬로 불러오기때문에 작업시 불러오는 속도가 빨라진다.
+
+
+# grade node
+***
+* blackpoint  
+가장 어두운 암부를 스포이드로 찍어준다.
+
+* whitepoint  
+가장 밝은 부분을 스포이드로 찍어준다.
+
+화이트밸런스를 자동으로 맞춰준다.
+
+* lift (어두운 암부를 조절하는 기능 [밝은 곳 고정])
+
+* gain (밝은 부분의 밝기를 조절하는 기능 [암부 고정])  
+
+* multiply(gain으로 비슷한데 gain으로 컨트롤이 힘들 경우 multiply 이용해 값 조절을 해줄 수 있다)  
+
+* offset(통채로 이동 [전체적으로 명도의 값을 조절]) 
+
+* gamma (쉐도우와 중부를 담당하는 곳의 값을 조절 [블랙과 화이트는 냅두고 중부를 올림] 가능하면 건들지 말자.)
+
+
+
+
+
+
+
+
+
+
+# color correct
+***
+
+
 
 
 
