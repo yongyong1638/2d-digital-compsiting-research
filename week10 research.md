@@ -31,6 +31,25 @@
  만약에 매치무브 노드를 쓰고 싶지 않다 싶으면 transform노드안에 matchmove 노드의 translate 값과 center값의 커브를 ctrl키 누르고 복사해서 transform 노드안에 위치시켜주면 
  transform 노드도 tracker 역할을 할 수 있다.  
  
+ two points tracker t와 r에 체크를 해주었고 
+ 
+ three points tracker 역시 stabilzie 기능을 위한 t r s 값을 선택할 수 있는데 
+ 간판이나 판플렛 교체할때 stabilize 사용해서 위치 옮겨놓고 다시 역방향으로 stabilize 걸어주면 원본느낌대로 움직임.
+ 
+ 4 points는 connerpin 2d node사용이 가능한데 from 가서 set to input을 눌러주면 트래킹 정보가 매칭이 된다.
+ 
+ **CMAREA TRACKING** 
+ 
+ 2d차원에 3d차원 오브제를 넣을때 nuke x에서 사용할 수 있다.
+ camera tracking 안에 preview feature를 선택을 해주면 트래킹 가능한 것의 포인트를 알려준다.
+ 카메라의 정보를 입력해주어야 더 수월한 카메라 트래킹이 이루어진다.
+ auto track 에서 최소값과 최대값 설정을 해주고 delete rejected 해주면 초록부분이 남는다.
+ export에서 scene으로 설정을 해주고 
+ 바닥으로 지정하고 싶은 feature을 잡아서 viewer에 연결해주고 우클릭 후 ground 부분 설정후 set to selected해주면 선택한 영역들이 바닥으로 깔리게 된다.
+ point cloud는 3d 카메라 영역에서 이정도 위치에 feature가 있다라고 알려주는 것.
+ 3d 오브젝트들 중 scan light render와 scene과 camera가 연결되어 있어야 2d 화면에서 볼 수 있다. 
+ 
+ 
  
  
  
