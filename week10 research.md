@@ -19,5 +19,8 @@
  
  tracker에서 transform중에 translate와 center 노드가 있는데 저기 위에 어떤 요소와 같은 위치에 배치를 할 수 있다.
  내가 트래킹하고 싶은 부분에 올려다놓고 그 위에 이미지를 올려놓고 값을 연결시키면 따라가게 된다.
+ tracking 부분에서 export 창에서 transform을 선택해 stabilize (화면 안정화) matchmove (같은 애니메이션을 가진 노드 제작) 
+ 만약 이미지를 위에 덮고 싶으면 merge over을 통해 원하는 이미지를 화면상에 불러오고
+ transform을 통해 scale조절 후 trakcer노드를 연결해 matchmove export 노드를 연결해 주면 똑같이 화면상에서 트래킹해서 움직인다.
  
  
