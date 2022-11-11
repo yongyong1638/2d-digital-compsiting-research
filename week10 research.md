@@ -25,6 +25,12 @@
  transform을 통해 scale조절 후 trakcer노드를 연결해 matchmove export 노드를 연결해 주면 똑같이 화면상에서 트래킹해서 움직인다.
  frame hold 기능은 우리가 배경에서 따오고 싶은 이미지의 1프레임만 가져와서 쓰는 것이다. 왜냐면 배경의 이미지도 같이 움직이 때문에 트래킹을 같이 잡아주지 않을거면
  holding을 해주자.  
+ two point stabilize 필요
+ 
+ transform baked node는 구워버리기 때문에 직접적으로 키가 연결되어 있다. 수정 불가.
+ 만약에 매치무브 노드를 쓰고 싶지 않다 싶으면 transform노드안에 matchmove 노드의 translate 값과 center값의 커브를 ctrl키 누르고 복사해서 transform 노드안에 위치시켜주면 
+ transform 노드도 tracker 역할을 할 수 있다.  
+ 
  
  
  
