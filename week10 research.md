@@ -48,7 +48,7 @@
  바닥으로 지정하고 싶은 feature을 잡아서 viewer에 연결해주고 우클릭 후 ground 부분 설정후 set to selected해주면 선택한 영역들이 바닥으로 깔리게 된다.
  point cloud는 3d 카메라 영역에서 이정도 위치에 feature가 있다라고 알려주는 것.
  3d 오브젝트들 중 scan light render와 scene과 camera가 연결되어 있어야 2d 화면에서 볼 수 있다. 
- 
+ transform geo 노드는 3d의 오브젝트의 transform을 관여할 수 있는데 일반적인 node는 붙지 않는다.
  
  
  
