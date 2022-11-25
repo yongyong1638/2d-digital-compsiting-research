@@ -27,5 +27,10 @@ fbx 노드는 maya에서 만든 추출 포멧인데 cache export selection alex
 
 nuke normal path compositing
 nuke 3d compositing 
+utility node들.
 
+질문할게 프레임 재생하는거 미루는 노드가 time 관련 노드들을 다 써봤는데 안밀린다.
+만약에 1프레임부터 1000프레임중에 200에서 300프레임 사이에 합성이미지가 재생되고 나갔으면 좋겠다할때 저번에 보여주셨던 노드 사용법?
+
+1가지 이미지를 불러와서 배경과 컬러코렉트를하고 
               
