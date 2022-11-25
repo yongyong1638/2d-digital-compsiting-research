@@ -25,4 +25,7 @@ maya에서 준 camera 값을 누크에서 넣는 법
 fbx 노드는 maya에서 만든 추출 포멧인데 cache export selection alex 
 해주어 카메라 값을 뽑고 nuke에서 camera object를 생성 후 read from file해서 maya에서 추출한 카메라의 값을 연결해주면 마야의 값이 그대로 연결된다.
 
+nuke normal path compositing
+nuke 3d compositing 
+
               
