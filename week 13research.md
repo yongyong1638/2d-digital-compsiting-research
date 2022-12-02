@@ -14,7 +14,17 @@ input이 원본이미지인데 rgb채널만 있고 a 채널이 없는 값의 이
 groundtruth가 rgb채널 중 r채널에 해당하는 부분의 로토스코핑을 통해 얻어낸 input이미지와 동일한 이미지의 alpha값을 연결시켜서
 
 training 시키면 6장 정도의 이미지로 한 씬의 대부분의 alhpa 이미지를 추출 가능하다.
-copycat의 노드중 그래프 노드 들어가면 loss값이 줄어드는 것을 볼 수도 있는데 이는 truth와 input의 차이가 줄어듬을 의미하낟.
+copycat의 노드중 그래프 노드 들어가면 loss값이 줄어드는 것을 볼 수도 있는데 이는 truth와 input의 차이가 줄어듬을 의미한다.
+
+
+copy node의 이해  
+기본적으로 커피 채널을 보면 from to형식으로 이루어져있는데.
+colorbar는 rgb채널이 있고 checherboard는 greyscale 값만 가지고 있는데 
+
+copy노드는 a의 alpha 채널을 b의 alpha 채널로 옮긴다 가정하면
+a의 채널을 b의 채널안에 넣어준다.
+shuffle 노드와 같은 역할을 해주긴한다.
+
 
 
 
