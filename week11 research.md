@@ -1,9 +1,13 @@
 # tracking and 3d scene making  
+<img src="https://lesterbanks.com/lxb_metal/wp-content/uploads/2015/07/Linking-Tracking-Data-in-Nuke.jpg">  
 
-트래킹 4개의 트래커 코너핀을 붙일 이미지에 붙이고
-from에서 set to input 해서 해상도를 맞춰주고
+**tracking**  
+
+트래커를 각 트래킹 시킬 이미지 위에 올려주고 범위를 지정해서 랜더링을 시킨다.
+properties 에서 
+from 박스를 선택 후 set to input해서 해상도를 맞춰주고
 이미지가 바운딩박스에 있는 to 점들을 움직이면
-conerpin2d에서 copy from 해준 뒤 
+conerpin 2d에서 copy from 해준 뒤 
 코너핀 2개를 사용한다 했을때 애니메이션을 만든 코너핀 1개랑
 위에다가 배경과 사이즈를 맞출 코너핀 1개를 더 만들어 준뒤 
 코너핀 끼리는 연결되어 있으면 값이 공유된다.
