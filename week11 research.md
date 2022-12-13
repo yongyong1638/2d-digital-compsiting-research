@@ -9,8 +9,9 @@ from 박스를 선택 후 set to input해서 해상도를 맞춰주고
 이미지가 바운딩박스에 있는 to 점들을 움직여 위치를 맞춰준다.
 conerpin 2d를 만들었다면 copy from을 해준 뒤 
 코너핀 2개를 사용한다 했을때 애니메이션을 만든 코너핀 1개랑
-위에다가 배경과 사이즈를 맞출 코너핀 1개를 더 만들어 준 뒤 
+위에다가 배경과 사이즈를 맞출 코너핀 1개를 더 만들어 준 뒤 merge시켜 주면 된다.
 코너핀 끼리는 연결되어 있으면 값이 공유된다.  
+<img src="https://learn.foundry.com/nuke/12.1/content/resources/images/ug_images/tracker_cornerpin1.png">
 
 
 한두 픽셀 밀리는 지점들은 직접 옮겨주면서 코너핀에 있는 것들의 프레임들 내에 set key 키를 잡아준다. 방향키를 사용해서 키의 값들을 조절할 수 있다.
@@ -20,7 +21,7 @@ conerpin 2d를 만들었다면 copy from을 해준 뒤
 transformgeo NODE는 3d 오브젝트의 변형을 할 수 있다.  
 
 
-3D CAMERA에서 PREFERENCE SETTING시 마야랑 똑같이 조작할 수 있다.  
+3D CAMERA에서 PREFERENCE SETTING시 마야랑 똑같이 조작할 수 있다. 3d cam은 누크x에서만 사용가능.
 포토샵에서 메트페인팅한 노드들 보면 shuffle 노드를 통해서 각각의 레이어들을 배치를 하고 card 이미지를 만들어서 레이어층을 배치할 수 있다.  
 그러면 card 이미지는 3d이기 때문에 camera tracking scene에 넣어줄 수 있다.  
 근데 이미지들이 안 맞으면 일일히 맞추는게 시간이 오래 소요되는데  
