@@ -4,7 +4,7 @@
 **segmentation object dection**  
 ai의 발달 -> nlp? gen 적대적 인공지능 모델.
 조건을 넣으면 이미지를 만들어주는 것. 
-ai의 자율 주행에 사용되는 것-> 컴퓨터가 rgb 외에 유틸리티를 실시간 분석하여 차를 운전.  
+ai의 자율 주행에 사용되는 것-> 컴퓨터가 rgb 외에 유틸리티를 실시간 분석하여 차를 운전. -> 딥러닝
 
 **copycat node**  
 groundtruth input 2가지의 가지가 있는데
