@@ -56,7 +56,7 @@
  3d 오브젝트들 중 scan light render와 scene과 camera가 연결되어 있어야 2d 화면에서 볼 수 있다. 
  transform geo 노드는 3d의 오브젝트의 transform을 관여할 수 있는데 일반적인 node는 붙지 않는다.
  
- <img src="https://lesterbanks.com/lxb_metal/wp-content/uploads/2013/12/Nuke-8-Camera-tracking-tutorial.jpg">
+ <img src="https://preview.redd.it/ctt8hfsn1ei21.png?width=2484&format=png&auto=webp&s=8be02503f4e3d4036f80f0707d5ba60dd37b378e">
  
  
  
