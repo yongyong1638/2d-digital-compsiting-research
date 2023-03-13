@@ -69,6 +69,9 @@
 
 4) 그래서 exr이나 raw파일로 color grading을 해야 조금 더 자연스럽고 다양한 범위의 color manage가 가능하다.  
 
+**작업 방식**
+srgb 모니터로 우리는 밝은 이미지의 푸티지를 보게 되는데 누크에서 작업시 감마를 낮춰주어 작업을 한다. 이를 통해 색상영역을 리니어로 보이게 끔 작업한다.
+
 <img src="https://docs.unity3d.com/uploads/Main/LinearRendering-Infinite3DHeadScan.jpg" width="600" height="400"> 
 
 위의 그림처럼 이미 감마 보정이 되어있는 이미지의 STOP(조명강도)을 차례대로 높히면 밝게 저장되어 있는 부분이 기하급수적으로 밝아져 표현가능한 WHITE가 뭉개져버린다. 이는 이미지의 손실을 야기하고 좋은 결과물을 낼 수 없다. 선형 랜더링의 경우 STOP이 높아져도 선형으로 유지된다. 이는 더 사실적인 음영 표현을 통해서 더 좋은 색 보정이 가능하다. 이렇기 때문에 **우리는 컬러그레이딩시 LINEAR WORKFLOW를 사용한다**  
