@@ -69,8 +69,10 @@
 
 4) 그래서 exr이나 raw파일로 color grading을 해야 조금 더 자연스럽고 다양한 범위의 color manage가 가능하다.  
 
-**작업 방식**
-srgb 모니터로 우리는 밝은 이미지의 푸티지를 보게 되는데 누크에서 작업시 감마를 낮춰주어 작업을 한다. 이를 통해 색상영역을 리니어로 보이게 끔 작업한다.
+## **작업 방식**
+srgb 모니터로 우리는 밝은 이미지의 푸티지를 보게 되는데 누크에서 작업시 감마를 낮춰주어 작업을 한다. 이를 통해 색상영역을 리니어로 보이게 끔 작업한다.  
+
+***
 
 <img src="https://docs.unity3d.com/uploads/Main/LinearRendering-Infinite3DHeadScan.jpg" width="600" height="400"> 
 
