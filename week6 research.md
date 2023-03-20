@@ -113,6 +113,12 @@ merge operation 중에 over는 layer 2개를 합치는 것인데
 
 이와 같이 인물 근처에 뭍은 먼지나 눈에 튀는 부분을 painting을 통해 보여주고자 하는 부분을 명확하게 보여줄때 사용한다.
 
-##  tracking
-
-
+## merge operation  
+**from B-A**  
+**mask BA**  
+**minus A-B**  
+**multiply AB, A IF A<0 and B<0**  
+**over a+b(1-a)**  
+**plus A+B**  
+**stencil B(1-a)**  
+**under A(1-b)+B**  
