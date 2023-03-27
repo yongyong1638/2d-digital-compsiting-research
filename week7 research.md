@@ -87,15 +87,18 @@ screen matte값에서 clip black과 clip white를 통해서 주변부를 잘 잡
 위에서 인물을 배경과 분리했다면 despill을 해주어야하는데 gizmo node를 통해서 인물에 묻은 그린을 gray로 바꿔주는데. 
 나중에는 초록 배경억제로 인한 인물에 손상이 있다면 color correction을 해주어야 한다.
 
-**grade color correct의 차이**
+**grade color correct의 차이**  
+
 g는 전체적인 톤 조절 color correct는 이미지를 합성 시 b 배경에 어울리는 채도 명암을 잡아줄 때 사용.
 gamma는 어두운 것을 어둡게  
 gain은 밝은 것을 더 밝게  
 black과 white point를 다 찍어주자.  
 
 **color correct**
+
 * 컬러 코렉션 시 range에서 shadow midtone highlight의 범위를 바꿔줄 수 있음.  
 * shadow의 range를 바꾸면 어둠이 어디까지 영향을 미추는지 조절 가능함.  
 * 미드톤은 쉐도우와 하이라이트를 바꿔주면 자동으로 값이 바뀐다.
-암부의 어두운 영역은 gamma값을 조절  
+암부의 어두운 영역은 gamma값을 조절 하이라이트의 밝은 부분은 gain값 조절.
+
 
