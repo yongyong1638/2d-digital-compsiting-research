@@ -41,9 +41,13 @@
  three points tracker 역시 stabilzie 기능을 위한 t r s 값을 선택할 수 있는데 
  간판이나 판플렛 교체할때 stabilize 사용해서 위치 옮겨놓고 다시 역방향으로 stabilize 걸어주면 원본느낌대로 움직임.
  
- 4 points는 connerpin 2d node사용이 가능한데 from 가서 set to input을 눌러주면 트래킹 정보가 매칭이 된다.
+ 4 points는 connerpin 2d node사용이 가능한데 from 가서 set to input을 눌러주면 트래킹 정보가 매칭이 된다.  
  
-<img src="https://github.com/yongyong1638/2d-digital-compsiting-research/blob/main/corner.PNG">
+ ***  
+ **cornerpin2d**
+ 
+<img src="https://github.com/yongyong1638/2d-digital-compsiting-research/blob/main/corner.PNG">  
+
 * 처음 이미지 파일을 가져와서 렌즈의 왜곡을 잡아준다.  
 * 트래커를 연결하고 Add track 4개를 해준다. 모서리에 맞춰서 트래킹해준다.   
 * transform matchmove를 설치해주고 lens distorion을 맞춰준 plate와 합성할 footage를 
@@ -51,7 +55,8 @@ merge over시켜준다.
 * 그렇기하면 일단 달라붙긴하는데 크기가 다를 것이다.  
 * 이 크기는 tracker에서 cornerpin2d (use transform ref frame) 이나 (current frame)등 코너핀을 합성할 footage에 연결해주고  
 * from창으로 넘어가 set to input해주면 위치가 맞춰지고 cornerpin2d 창으로 넘어가 copy from을 해주면 to point 4개가 생기는데 이를 위치를 맞춰준다면 트래킹이 가능하다.  
-* 
+
+
    
  **CMAREA TRACKING** 
  
