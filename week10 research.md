@@ -42,7 +42,8 @@
  간판이나 판플렛 교체할때 stabilize 사용해서 위치 옮겨놓고 다시 역방향으로 stabilize 걸어주면 원본느낌대로 움직임.
  
  4 points는 connerpin 2d node사용이 가능한데 from 가서 set to input을 눌러주면 트래킹 정보가 매칭이 된다.
-   
+ 
+ (screenshot)(./image/corner.png)
    
  **CMAREA TRACKING** 
  
