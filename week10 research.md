@@ -58,7 +58,8 @@ merge over시켜준다.
 
 
    
- **CMAREA TRACKING** 
+ **CMAREA TRACKING**  
+ 
  3d camera tracking node
 lens distortion을 먼저 해준 뒤
 cameratracker node를 연결해준다.  
