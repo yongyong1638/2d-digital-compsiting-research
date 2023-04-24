@@ -59,16 +59,48 @@ merge over시켜준다.
 
    
  **CMAREA TRACKING** 
+ 3d camera tracking node
+lens distortion을 먼저 해준 뒤
+cameratracker node를 연결해준다.  
+mask를 통해 마스킹 되는 부분을 설정해 줄 수 있고
+camera part에 있는 것들 값을 다 지정해주고 
+setting에서 점들의 위치와 넓이 정도를 만져주고
+track시킨다.  
+그다음 solve 버튼을 누르면 분석이 완료되는데
+* 오렌지색 unsolved  
+* 빨간색 reject  
+* 초록색은 solved  
+solve error 값을 1 밑으로 떨궈줘야 한다.  
+
+error 값을 1밑으로 떨구려면 error max와 max error 값을 ctrl 키 누르면서 클릭을 하면 그래프가 뜬다.
+그 다음 max error 값을 낮춰준 뒤 delete rejected
+track lens min 과 min length를 클릭해서 min lenght 값을 높혀주고 delete rejected
+마지막으로 error max와 max error ctrl를 클릭해서 max track error 값을 낮춰준다. delete rejected 하여 최종적으로 error 값을 1밑으로 낮춘다.  
+
+그 다음 밑에서 create scene해주면 scene과 camera 노드가 생긴다.  
+scene을 1번 뷰포트로 연결하고 camera tracking을 2번 뷰포트로 연결한다.   
+그다음 씬을 a에 넣고 stack over 누르고 camera tracker을 b에 넣는다.  
+그다음 바로 밑에 default를 카메라로 바꿔준 뒤 오른쪽 캠코더 모양 눌러주면 시점이 카메라 시점으로 바뀐다.  
+
+
+다시 camera tracker로 돌아와서 camera tracker 탭에 있는 scene 들어가서 rotate y축을 조절하여 그래프를
+영상과 평행하게 만들어준다.   
+그 다음 camera tracker에서 바닥 부분이 제일 많은 프레임에서 바닥을 shift 누르며 선택한 뒤 우클릭 ground plane set to selected 해서 핑크색으로 바닥이 생겼으면
+tab 눌러서 modelbuildergeo node를 만들어준 뒤 cam과 src를 각각 camera와 cameratracker에 달아준다.  
+
+왼쪽 측면창에서 create card 해준 뒤 내가 따라갔으면 하는 부위에 그래프를 올려서 모양을 맞춘다.  
+모양을 맞출때는 2개이상의 프레임 레인지를 설정해 주어야지 누크가 알아서 tracking한다.    
+그 다음 tracking이 얼추 된다면 modelbuilder 탭에 안에 card1을 선택한 뒤 selected geometry를 bake 해준다.  
+
+그러면 modelbuilder노드가 하나 더 생기는데 그 노드에다가 우리가 합성 할 footage를 연결해준다.  
+그 다음 scanlinerender을 만들어 준 뒤 화면 속에 합성할 푸티지가 보이는지 확인한다.   
+그 다음 merge over를 원본 plate에서 lens distortion한 것에 b를 연결하고 a를 scanlinerender에 붙이면
+화면 속에서 합성되어 보인다.  
+
+
+
  
- 2d차원에 3d차원 오브제를 넣을때 nuke x에서 사용할 수 있다.
- camera tracking 안에 preview feature를 선택을 해주면 트래킹 가능한 것의 포인트를 알려준다.
- 카메라의 정보를 입력해주어야 더 수월한 카메라 트래킹이 이루어진다.
- auto track 에서 최소값과 최대값 설정을 해주고 delete rejected 해주면 초록부분이 남는다.
- export에서 scene으로 설정을 해주고 
- 바닥으로 지정하고 싶은 feature을 잡아서 viewer에 연결해주고 우클릭 후 ground 부분 설정후 set to selected해주면 선택한 영역들이 바닥으로 깔리게 된다.
- point cloud는 3d 카메라 영역에서 이정도 위치에 feature가 있다라고 알려주는 것.
- 3d 오브젝트들 중 scan light render와 scene과 camera가 연결되어 있어야 2d 화면에서 볼 수 있다. 
- transform geo 노드는 3d의 오브젝트의 transform을 관여할 수 있는데 일반적인 node는 붙지 않는다.
+
  
  <img src="https://preview.redd.it/ctt8hfsn1ei21.png?width=2484&format=png&auto=webp&s=8be02503f4e3d4036f80f0707d5ba60dd37b378e">
  
